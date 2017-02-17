@@ -92,6 +92,7 @@ public class LnodeUtils {
             System.out.print(node.data+"...");
             node = node.next;
         }
+        System.out.print(node.data+"...");
     }
 
         //在单链表的第I个元素之前插入一个元素的算法
@@ -155,7 +156,7 @@ public class LnodeUtils {
             index = data;
             j++;
         }
-        
+
           setNode(head);
 
         LnodeUtils removeIndex = new LnodeUtils();
